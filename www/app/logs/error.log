@@ -1,0 +1,64 @@
+2023-09-14 15:12:33 warning: DebugKit is disabling itself as your host `forcepalm.dk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-09-14 15:15:19 warning: DebugKit is disabling itself as your host `forcepalm.dk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-09-14 15:15:19 error: [Cake\Http\Exception\MissingControllerException] Controller class 8383 could not be found. in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => '8383',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /8383
+Client IP: 77.233.238.178
+2023-09-14 15:15:27 warning: DebugKit is disabling itself as your host `forcepalm.dk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-09-14 15:18:02 warning: DebugKit is disabling itself as your host `forcepalm.dk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-09-14 15:20:15 warning: DebugKit is disabling itself as your host `report.mcstats.org` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-09-14 15:20:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/Wild
+Client IP: 127.0.0.1
+2023-09-14 15:20:15 warning: DebugKit is disabling itself as your host `report.mcstats.org` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-09-14 15:20:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/AreaShop
+Client IP: 127.0.0.1
