@@ -41,7 +41,7 @@ class PfuThemePlugin extends BasePlugin
     {
         $routes->plugin(
             'PfuTheme',
-            ['path' => '/pfu-theme'],
+            ['path' => '/'],
             function (RouteBuilder $builder) {
                 // Add custom routes here
 

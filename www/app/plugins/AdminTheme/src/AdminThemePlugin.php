@@ -41,7 +41,7 @@ class AdminThemePlugin extends BasePlugin
     {
         $routes->plugin(
             'AdminTheme',
-            ['path' => '/admin-theme'],
+            ['path' => '/admin'],
             function (RouteBuilder $builder) {
                 // Add custom routes here
 
