@@ -65,8 +65,8 @@ class Application extends BaseApplication
         }
 
         // Load more plugins here
-        $this->addPlugin('PfuTheme');
-        $this->addPlugin('AdminTheme');
+        $this->addPlugin('PfuTheme', ['routes' => true]);
+        $this->addPlugin('AdminTheme', ['routes' => true]);
     }
 
     /**

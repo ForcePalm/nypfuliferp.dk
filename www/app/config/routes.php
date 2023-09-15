@@ -50,7 +50,7 @@ return static function (RouteBuilder $routes) {
          * its action called 'display', and we pass a param to select the view file
          * to use (in this case, templates/Pages/home.php)...
          */
-        $builder->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
+        $builder->connect('/', ['plugin' => 'PfuTheme', 'controller' => 'Pages', 'action' => 'display', 'home']);
 
         $builder->connect('/users/login', ['controller' => 'Users', 'action' => 'login']);
         $builder->connect('/users/logout', ['controller' => 'Users', 'action' => 'logout']);
@@ -60,6 +60,8 @@ return static function (RouteBuilder $routes) {
          * ...and connect the rest of 'Pages' controller's URLs.
          */
         $builder->connect('/pages/*', 'Pages::display');
+
+        $builder->connect('/admin/*', array('plugin' => 'AdminTheme', 'controller' => 'Pages', 'action' => 'display', 'home'));
 
         /*
          * Connect catchall routes for all controllers.

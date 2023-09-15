@@ -26,13 +26,18 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "AdminTheme\\": "plugins/AdminTheme/src/",
+            "PfuTheme\\": "plugins/PfuTheme/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "App\\Test\\": "tests/",
-            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/",
+            "AdminTheme\\Test\\": "plugins/AdminTheme/tests/",
+            "PfuTheme\\Test\\": "plugins/PfuTheme/tests/"
+
         }
     },
     "scripts": {

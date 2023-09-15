@@ -35,6 +35,8 @@ return array(
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'Phinx\\' => array($vendorDir . '/robmorgan/phinx/src/Phinx'),
+    'PfuTheme\\Test\\' => array($baseDir . '/plugins/PfuTheme/tests'),
+    'PfuTheme\\' => array($baseDir . '/plugins/PfuTheme/src'),
     'PHPStan\\PhpDocParser\\' => array($vendorDir . '/phpstan/phpdoc-parser/src'),
     'PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => array($vendorDir . '/dealerdirect/phpcodesniffer-composer-installer/src'),
     'Migrations\\' => array($vendorDir . '/cakephp/migrations/src'),
@@ -66,4 +68,6 @@ return array(
     'Bake\\' => array($vendorDir . '/cakephp/bake/src'),
     'App\\Test\\' => array($baseDir . '/tests'),
     'App\\' => array($baseDir . '/src'),
+    'AdminTheme\\Test\\' => array($baseDir . '/plugins/AdminTheme/tests'),
+    'AdminTheme\\' => array($baseDir . '/plugins/AdminTheme/src'),
 );

@@ -84,6 +84,8 @@ class ComposerStaticInit72ca804a6ff71793a6a925255a3497e0
             'Psr\\Container\\' => 14,
             'PhpParser\\' => 10,
             'Phinx\\' => 6,
+            'PfuTheme\\Test\\' => 14,
+            'PfuTheme\\' => 9,
             'PHPStan\\PhpDocParser\\' => 21,
             'PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 57,
         ),
@@ -136,6 +138,8 @@ class ComposerStaticInit72ca804a6ff71793a6a925255a3497e0
         array (
             'App\\Test\\' => 9,
             'App\\' => 4,
+            'AdminTheme\\Test\\' => 16,
+            'AdminTheme\\' => 11,
         ),
     );
 
@@ -257,6 +261,14 @@ class ComposerStaticInit72ca804a6ff71793a6a925255a3497e0
         'Phinx\\' => 
         array (
             0 => __DIR__ . '/..' . '/robmorgan/phinx/src/Phinx',
+        ),
+        'PfuTheme\\Test\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/plugins/PfuTheme/tests',
+        ),
+        'PfuTheme\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/plugins/PfuTheme/src',
         ),
         'PHPStan\\PhpDocParser\\' => 
         array (
@@ -381,6 +393,14 @@ class ComposerStaticInit72ca804a6ff71793a6a925255a3497e0
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'AdminTheme\\Test\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/plugins/AdminTheme/tests',
+        ),
+        'AdminTheme\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/plugins/AdminTheme/src',
         ),
     );
 
