@@ -421,4 +421,11 @@ return [
     'Session' => [
         'defaults' => 'php',
     ],
+
+    'OpenID' => [
+        'returnTo' => 'http://forcepalm.dk/openid/verify',
+        'realm' => 'http://forcepalm.dk/',
+        'required' => ['email'],
+        'steamApiKey' => '5D5CAEE5D825D22CBEBB7FB693D81B69',
+    ],
 ];

@@ -36,42 +36,36 @@ return [
      */
     'Datasources' => [
         'default' => [
-            'host' => 'localhost',
-            /*
-             * CakePHP will use the default DB port based on the driver selected
-             * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
-             * the following line and set the port accordingly
-             */
-            //'port' => 'non_standard_port_number',
-
-            'username' => 'my_app',
-            'password' => 'secret',
-
-            'database' => 'my_app',
-            /*
-             * If not using the default 'public' schema with the PostgreSQL driver
-             * set it here.
-             */
-            //'schema' => 'myapp',
-
-            /*
-             * You can use a DSN string to set the entire configuration
-             */
-            'url' => env('DATABASE_URL', null),
+            'className' => 'Cake\Database\Connection',
+            // Replace Mysql with Postgres if you are using PostgreSQL
+            'driver' => 'Cake\Database\Driver\Mysql',
+            'persistent' => false,
+            'host' => '127.0.0.1',
+            'username' => 'root',
+            'password' => '3MDHaqf9NKEdXS3g',
+            'database' => 'pfuliferp_dk_db',
+            // Comment out the line below if you are using PostgreSQL
+            'encoding' => 'utf8',
+            //'timezone' => 'UTC',
+            'cacheMetadata' => true,
+            'quoteIdentifiers' => true
+        ],
+        'debug_kit' => [
+            'className' => 'Cake\Database\Connection',
+            // Replace Mysql with Postgres if you are using PostgreSQL
+            'driver' => 'Cake\Database\Driver\Mysql',
+            'persistent' => false,
+            'host' => '127.0.0.1',
+            'username' => 'root',
+            'password' => '3MDHaqf9NKEdXS3g',
+            'database' => 'pfuliferp_dk_db',
+            // Comment out the line below if you are using PostgreSQL
+            'encoding' => 'utf8',
+            //'timezone' => 'UTC',
+            'cacheMetadata' => true,
+            'quoteIdentifiers' => true
         ],
 
-        /*
-         * The test connection is used during the test suite.
-         */
-        'test' => [
-            'host' => 'localhost',
-            //'port' => 'non_standard_port_number',
-            'username' => 'my_app',
-            'password' => 'secret',
-            'database' => 'test_myapp',
-            //'schema' => 'myapp',
-            'url' => env('DATABASE_TEST_URL', 'sqlite://127.0.0.1/tests.sqlite'),
-        ],
     ],
 
     /*
