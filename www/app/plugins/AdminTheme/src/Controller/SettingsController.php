@@ -92,7 +92,6 @@ class SettingsController extends AppController
             $setting = $this->Settings->patchEntity($setting, $this->request->getData());
             // Handle file upload
             $file = $this->request->getData('site_logo');
-            dd($file);
             if ($file->getClientFileName()) {
                 $path = WWW_ROOT . 'img' . DS . 'uploads' . DS . 'Settings';
                 $setting->site_logo = UploadComponent::upload($file, $path);

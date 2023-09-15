@@ -18,13 +18,15 @@
     </aside>
     <div class="column-responsive column-80">
         <div class="settings form content">
-            <?= $this->Form->create($setting) ?>
+            <?= $this->Form->create($setting, [
+                'type' => 'file',
+            ]) ?>
             <fieldset>
                 <legend><?= __('Edit Setting') ?></legend>
                 <?php
-                    echo $this->Form->control('site_name');
-                    echo $this->Form->control('site_description');
-                    echo $this->Form->control('site_logo');
+                    echo $this->Form->control('site_name', ['label' => 'Hjemmeside Navn']);
+                    echo $this->Form->control('site_description', ['label' => 'Hjemmeside beskrivelse', 'type' => 'textarea']);
+                    echo $this->Form->control('site_logo', ['label' => 'Logo', 'type' => 'file', 'required' => false]);
                     echo $this->Form->control('theme_primary_color');
                     echo $this->Form->control('theme_secondary_color');
                 ?>
