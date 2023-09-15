@@ -26,7 +26,7 @@
                     <td><?= $this->Number->format($setting->id) ?></td>
                     <td><?= h($setting->site_name) ?></td>
                     <td><?= h($setting->site_description) ?></td>
-                    <td><?= h($setting->site_logo) ?></td>
+                    <td><img src="../img/uploads/Settings/<?= $setting->site_logo?>" alt="logo"></td>
                     <td><?= h($setting->theme_primary_color) ?></td>
                     <td><?= h($setting->theme_secondary_color) ?></td>
                     <td class="actions">
