@@ -63,13 +63,13 @@
 
 .admin-nav ul li a:hover{
     color: #fff;
-    background-color: #2271b1;
+    background-color: #F576D9;
     padding-left: 18px;
 }
 
 .admin-active{
     color: #fff;
-    background-color: #2271b1;
+    background-color: #F576D9;
     padding-left: 18px !important;
 }
 
@@ -90,15 +90,15 @@
 
 .admin-main .button,
 .admin-main button{
-    background-color: #2271b1;
+    background-color: #F576D9;
     color: #fff;
     transition: all 0.4s ease-in-out;
-    border: 0.1rem solid #2271b1;
+    border: 0.1rem solid #F576D9;
 }
 
 .admin-main .button:hover,
 .admin-main button:hover{
-    background-color: #15476f;
+    background-color: #F576D9;
 }
 
 .admin-main td:first-child, 
@@ -121,11 +121,15 @@
 }
 
 .admin-main table th a{
-    color: #2271b1;
+    color: #F576D9;
+}
+
+.actions{
+    color: #F576D9;
 }
 
 .admin-main table td a{
-    color: #2271b1;
+    color: #F576D9;
 }
 
 .admin-main .paginator{
@@ -138,7 +142,7 @@
 }
 
 .admin-main .paginator ul li a{
-    color: #2271b1;
+    color: #F576D9;
     font-size: 1.4rem;
 }
 

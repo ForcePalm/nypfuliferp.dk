@@ -2,7 +2,8 @@ const gulp = require('gulp');
 const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
 const watch = require('gulp-watch');
-const uglify = require('gulp-uglify');
+const concat = require('gulp-concat');
+const terser = require('gulp-terser');
 
 let isMinifying = false;
 let isMinifyingJS = false;
@@ -12,7 +13,7 @@ gulp.task('minify-css', () => {
   if (!isMinifying) {
     isMinifying = true;
 
-  return gulp.src(['webroot/css/**/*.css', '!webroot/css/**/*.min.css']) // Path to your CSS files
+  return gulp.src(['webroot/css/styles.css']) // Path to your CSS files
     .pipe(cleanCSS())
     .pipe(rename('styles.min.css')) // Rename the output file
     .pipe(gulp.dest('webroot/css')) // Output directory for the renamed file
@@ -27,9 +28,9 @@ gulp.task('minify-js', () => {
   if (!isMinifyingJS) {
     isMinifyingJS = true;
 
-    return gulp.src(['webroot/js/**/*.js', '!webroot/js/**/*.min.js'])
-      .pipe(uglify())
-      .pipe(rename('scripts.min.js'))
+    return gulp.src(['webroot/js/scripts.js', 'webroot/js/modules/*.js', '!webroot/js/*.min.js', '!webroot/js/vendor/*.js'])
+    .pipe(concat('scripts.min.js')) // Concatenate all scripts into a single file
+    .pipe(terser()) // Minify the concatenated file
       .pipe(gulp.dest('webroot/js'))
       .on('end', () => {
         isMinifyingJS = false; // Reset the flag after the task is done
@@ -49,7 +50,7 @@ gulp.task('watch', () => {
 
   });
 
-  watch(['webroot/js/**/*.js', '!webroot/js/**/*.min.js'], { events: ['add', 'change', 'unlink'] }, (file) => {
+  watch(['webroot/js/scripts.js', 'webroot/js/modules/*.js', '!webroot/js/*.min.js', '!webroot/js/vendor/*.js'], { events: ['add', 'change', 'unlink'] }, (file) => {
     const filePath = file.relative;
     if (filePath !== 'scripts.min.js') {
       gulp.series('minify-js')();
