@@ -25560,3 +25560,314 @@ Stack Trace:
 
 Request URL: /plugin/Wild
 Client IP: 127.0.0.1
+2023-09-15 23:20:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/AreaShop
+Client IP: 127.0.0.1
+2023-09-15 23:20:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/Wild
+Client IP: 127.0.0.1
+2023-09-15 23:35:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/AreaShop
+Client IP: 127.0.0.1
+2023-09-15 23:35:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/Wild
+Client IP: 127.0.0.1
+2023-09-15 23:49:29 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /js/jquery/jquery-3.6.4.min.js
+Referer URL: http://forcepalm.dk/admin/settings
+Client IP: 77.233.238.178
+2023-09-15 23:49:29 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /js/toastr/toastr.min.js
+Referer URL: http://forcepalm.dk/admin/settings
+Client IP: 77.233.238.178
+2023-09-15 23:49:29 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /js/bootstrap/bootstrap.bundle.min.js
+Referer URL: http://forcepalm.dk/admin/settings
+Client IP: 77.233.238.178
+2023-09-15 23:49:29 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /js/modules/mobile_menu.js
+Referer URL: http://forcepalm.dk/admin/settings
+Client IP: 77.233.238.178
+2023-09-15 23:50:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/AreaShop
+Client IP: 127.0.0.1
+2023-09-15 23:50:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/Wild
+Client IP: 127.0.0.1
+2023-09-16 00:05:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/AreaShop
+Client IP: 127.0.0.1
+2023-09-16 00:05:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/Wild
+Client IP: 127.0.0.1
+2023-09-16 00:11:41 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /boaform/admin/formLogin
+Referer URL: http://144.91.122.78:80/admin/login.asp
+Client IP: 95.214.55.115
+2023-09-16 00:20:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/Wild
+Client IP: 127.0.0.1
+2023-09-16 00:20:15 error: [Cake\Http\Exception\BadRequestException] Bad Request in /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php on line 168
+Stack Trace:
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/dev.forcepalm.dk/www/app/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/dev.forcepalm.dk/www/app/webroot/index.php:40
+
+Request URL: /plugin/AreaShop
+Client IP: 127.0.0.1
