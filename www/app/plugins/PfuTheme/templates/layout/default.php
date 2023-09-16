@@ -12,12 +12,16 @@
  * @since         0.10.0
  * @license       https://opensource.org/licenses/mit-license.php MIT License
  * @var \App\View\AppView $this
+ * 
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+use Cake\Core\Configure;
+
+$cakeDescription = 'Ønskeportalen: Din online ønskeliste';
+
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="da">
 <head>
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,32 +30,60 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
+    <?= $this->Html->meta('description', Configure::read('description'))?>
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="preload" as="font">
 
-    <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake']) ?>
+    <?= $this->Html->css(['reset', 'vendor/normalize.min', 'vendor/milligram.min', 'vendor/bootstrap/bootstrap.min', 'styles.min', 'vendor/toastr/toastr.min'], ['media' => 'screen']) ?>
+    <?= $this->Html->script(['vendor/jquery/jquery-3.6.4.min','vendor/bootstrap/bootstrap.bundle.min', 'vendor/toastr/toastr.min']) ?>
+
+    <script src="https://kit.fontawesome.com/7a26c8da44.js" crossorigin="anonymous"></script>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
+    <?= $this->fetch('vendor') ?>
 </head>
 <body>
-    <nav class="top-nav">
-        <div class="top-nav-title">
-            <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
-        </div>
-        <div class="top-nav-links">
-            <a target="_blank" rel="noopener" href="https://book.cakephp.org/4/">Documentation</a>
-            <a target="_blank" rel="noopener" href="https://api.cakephp.org/">API</a>
-        </div>
-    </nav>
-    <main class="main">
-        <div class="container">
+    <header class="main-header default-background">
+        <nav class="top-nav">
+            <div class="top-nav-title">
+                <a href="<?= $this->Url->build('/') ?>"><span class="home-link"><img src="<?= $this->Url->image('uploads/Settings/'. Configure::read('logo')) ?>" width="45px" height="45px" alt="Gave"><?= ucfirst(Configure::read('name')) ?></span></a>
+            </div>
+
+            <div class="mobile-menu default-text-color">
+                <span class="fa-solid fa-bars"></span>
+            </div>
+
+            <div class="top-nav-links menu-closed">
+                <div>
+                    <a href="">Om os</a>
+                    <?php //if ($this->request->getAttribute('identity')) { ?>
+                        <a href="">Min side</a>
+                        <a href=""><?php //$this->request->getAttribute('identity')->get('name') ?></a>
+                        <a href="">Log af</a>
+                    <?php //}else{ ?>
+                    <a href="<?php// $this->Url->build(['controller' => 'users', 'action' => 'login']) ?>">Log ind</a>
+                    <?php //} ?>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main-content">
+        <div class="container-fluid">
             <?= $this->Flash->render() ?>
             <?= $this->fetch('content') ?>
         </div>
     </main>
-    <footer>
+    <footer class="default-background">
+        <a class="default-text-color" href="<?= $this->Url->build('/') ?>"><span><?= ucfirst(Configure::read('name')) ?></span></a>
+        <p>Copyright © <?=  date("Y") ?> <?= ucfirst(Configure::read('name')) ?></p>
     </footer>
+    
+    <!--append scripts-->
+    <?= $this->Html->script(['scripts.min']) ?>
 </body>
 </html>
+

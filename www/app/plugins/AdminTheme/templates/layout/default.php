@@ -15,7 +15,7 @@ use Cake\Core\Configure;
  * @var \App\View\AppView $this
  * 
  */
-$cakeDescription = 'PFULifeRP';
+$cakeDescription = 'PFULifeRP Admin - ';
 
 ?>
 <!DOCTYPE html>
@@ -31,8 +31,8 @@ $cakeDescription = 'PFULifeRP';
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="preload" as="font">
 
-    <?= $this->Html->css(['reset', 'normalize.min', 'milligram.min', 'cake', 'modules/admin']) ?>
-    <?= $this->Html->script(['jquery/jquery-3.6.4.min','bootstrap/bootstrap.bundle.min', 'toastr/toastr.min']) ?>
+    <?= $this->Html->css(['reset', 'vendor/normalize.min', 'vendor/milligram.min', 'vendor/bootstrap/bootstrap.min', 'vendor/toastr/toastr.min', 'styles.min']) ?>
+    <?= $this->Html->script(['vendor/jquery/jquery-3.6.4.min','vendor/bootstrap/bootstrap.bundle.min', 'vendor/toastr/toastr.min']) ?>
 
     <script src="https://kit.fontawesome.com/7a26c8da44.js" crossorigin="anonymous"></script>
 
@@ -41,7 +41,7 @@ $cakeDescription = 'PFULifeRP';
     <?= $this->fetch('script') ?>
     <?= $this->fetch('vendor') ?>
 </head>
-<body>
+<body class="">
     <!--Get controller name-->
     <?php $c_name = $this->request->getParam('controller'); ?>
     <header class="admin-header">
@@ -58,7 +58,7 @@ $cakeDescription = 'PFULifeRP';
                 </ul>
             </nav>
         </div>
-        <div class="content-wrapper">
+        <div class="content-wrapper bg-dark">
             <main class="admin-main">
                 <div class="container-fluid">
                     <?= $this->Flash->render() ?>

@@ -1,0 +1,240 @@
+/*Body*/
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    --featured-img: linear-gradient(120deg,#fff,#1d1d1d);
+    background-image: radial-gradient(50% 50% at top center,rgba(0,0,0,.70),#1d1d1d),var(--featured-img);
+    background-repeat: no-repeat;
+}
+
+
+/*Page wrapper*/
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/*Header*/
+.main-header{
+    border-bottom: 2px solid #F576D9;
+    position: fixed;
+    min-width: 100%;
+}
+
+.main-header .top-nav-title img{
+    width: 45px;
+    border-radius: 100%;
+}
+
+
+/*Main*/
+.main-content{
+    margin-top: 80px;
+}
+
+
+/*Banner*/
+.banner{
+    background-image: url('../img/home-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 85vh;
+    margin-top: -80px;
+    width: 100%;
+}
+
+
+/*Overlay*/
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.overlay h1{
+    font-weight: bold;
+    font-size: 4.5em;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 86.6px;
+}
+
+.overlay a{
+    min-width: 10px;
+    font-size: 2em;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 22px;
+    font-weight: bold;
+}
+
+
+/*Footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: auto;
+    min-height: 15vh;
+    border-top: 2px solid #F576D9;
+    padding-top: 2px;
+}
+
+footer p{
+    color: #999;
+    margin-bottom: 0;
+    font-size: 1.4em;
+}
+
+footer > a{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: #F576D9;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+footer ul li{
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+footer ul li a{
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+
+/*Accrodion*/
+.accordion-wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.accordion-wrapper h3{
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.accordion-wrapper .accordion-item{
+    margin-bottom: 20px;
+}
+
+.accordion-wrapper .accordion-button{
+    color: #111 !important;
+    background-color: #F576D9 !important;
+    font-size: 1.4rem;
+    padding: 25px 20px;
+    position:unset;
+}
+    
+.accordion-wrapper .accordion-body{
+    color: #111 !important;
+    background-color: #F576D9 !important;
+    font-size: 1.4rem;
+}
+
+.accordion-wrapper .accordion-item{
+    border: none;
+}
+
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+}
+
+.accordion-item:first-of-type,
+.accordion-item:first-of-type .accordion-button{
+    border-radius: 0px;
+}
+
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 12px;
+    border-left: 1px solid #F576D9;
+    border-right: 1px solid #F576D9;
+}
+    
+::-webkit-scrollbar-track {
+    width: 2px;
+    background-color: transparent;
+}
+    
+::-webkit-scrollbar-thumb {
+    background: #F576D9;
+    border-radius: 5px;
+    max-height: 20px;
+}
+    
+::-webkit-scrollbar-thumb:hover {
+    background: #F576D9;  
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.error-message{
+    color: #f00;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+    
+/*Wrapper*/
+.content-container{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-container h3{
+    font-size: 3em;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*Mobile-mneu*/
+.mobile-menu{
+    font-size: 3em;
+    display: none;
+}
+
+.mobile-menu span{
+    cursor: pointer;
+}
+
+/*toastr*/
+.toast {
+    margin-top: 7px !important;
+    font-size: 1.5rem;
+    min-width: 90%;
+    opacity: 1 !important;
+}

@@ -1,0 +1,35 @@
+/*Templates*/
+.default-background{
+    background-color: #111;
+}
+
+.default-text-color{
+    color: #F576D9;
+}
+
+.default-hover-effect{
+    color: #111;
+    background-color: #F576D9;
+    border: 2px solid #F576D9;
+    transition: all 0.4s ease-in-out;
+}
+
+.default-hover-effect:hover{
+    color: #F576D9;
+    background-color: #111;
+    border-color: #F576D9;
+}
+
+.default-border{
+    border: 2px solid #F576D9;
+}
+
+.hidden{
+    display: none;
+}
+
+.disabled{
+    background-color: #F576D9 !important; 
+    border-color: #F576D9 !important;
+    color: #111 !important;
+}
