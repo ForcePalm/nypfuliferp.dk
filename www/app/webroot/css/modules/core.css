@@ -9,11 +9,7 @@ body{
 }
 
 
-/*Page wrapper*/
-.container-fluid{
-    padding-left: 0px;
-    padding-right: 0px;
-}
+
 
 
 /*Header*/
@@ -31,7 +27,7 @@ body{
 
 /*Main*/
 .main-content{
-    margin-top: 80px;
+    margin-top: 140px;
 }
 
 

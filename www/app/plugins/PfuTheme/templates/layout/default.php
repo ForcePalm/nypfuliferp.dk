@@ -34,7 +34,7 @@ $cakeDescription = 'Ønskeportalen: Din online ønskeliste';
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="preload" as="font">
 
-    <?= $this->Html->css(['reset', 'vendor/normalize.min', 'vendor/milligram.min', 'vendor/bootstrap/bootstrap.min', 'styles.min', 'vendor/toastr/toastr.min'], ['media' => 'screen']) ?>
+    <?= $this->Html->css(['reset', 'vendor/normalize.min', 'vendor/bootstrap/bootstrap.min', 'styles.min', 'vendor/toastr/toastr.min'], ['media' => 'screen']) ?>
     <?= $this->Html->script(['vendor/jquery/jquery-3.6.4.min','vendor/bootstrap/bootstrap.bundle.min', 'vendor/toastr/toastr.min']) ?>
 
     <script src="https://kit.fontawesome.com/7a26c8da44.js" crossorigin="anonymous"></script>
@@ -57,14 +57,7 @@ $cakeDescription = 'Ønskeportalen: Din online ønskeliste';
 
             <div class="top-nav-links menu-closed">
                 <div>
-                    <a href="">Om os</a>
-                    <?php //if ($this->request->getAttribute('identity')) { ?>
-                        <a href="">Min side</a>
-                        <a href=""><?php //$this->request->getAttribute('identity')->get('name') ?></a>
-                        <a href="">Log af</a>
-                    <?php //}else{ ?>
-                    <a href="<?php// $this->Url->build(['controller' => 'users', 'action' => 'login']) ?>">Log ind</a>
-                    <?php //} ?>
+        
                 </div>
                 
             </div>

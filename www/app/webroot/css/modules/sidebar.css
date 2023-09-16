@@ -1,0 +1,11 @@
+.sidebar-div{
+    text-align: center;
+    background-color: #202225 !important;
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.sidebar-div p {
+    color: white;
+}
