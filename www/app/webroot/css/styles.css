@@ -1,0 +1,12 @@
+@import url('cake.css');
+@import url('modules/admin.css');
+@import url('modules/scrollbar.css');
+@import url('modules/responsive.css');
+@import url('modules/default.css');
+@import url('modules/form.css');
+@import url('modules/core.css');
+
+
+.bg-dark{
+    background-color: #343a40!important;
+}

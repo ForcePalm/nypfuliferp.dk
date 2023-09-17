@@ -5,35 +5,28 @@
  */
 ?>
 <div class="settings index content">
+    <?php if(empty($settings)){ ?>
     <?= $this->Html->link(__('New Setting'), ['action' => 'add'], ['class' => 'button float-right']) ?>
-    <h3><?= __('Settings') ?></h3>
+    <?php } ?>
+    <h3><?= __('Site instillinger') ?></h3>
     <div class="table-responsive">
         <table>
             <thead>
                 <tr>
-                    <th><?= $this->Paginator->sort('id') ?></th>
-                    <th><?= $this->Paginator->sort('site_name') ?></th>
-                    <th><?= $this->Paginator->sort('site_description') ?></th>
-                    <th><?= $this->Paginator->sort('site_logo') ?></th>
-                    <th><?= $this->Paginator->sort('theme_primary_color') ?></th>
-                    <th><?= $this->Paginator->sort('theme_secondary_color') ?></th>
-                    <th class="actions"><?= __('Actions') ?></th>
+                    <th><?= $this->Paginator->sort('Side navn') ?></th>
+                    <th><?= $this->Paginator->sort('Side beskrivelse') ?></th>
+                    <th><?= $this->Paginator->sort('Side logo') ?></th>
+                    <th class="actions"><?= __('Handlinger') ?></th>
                 </tr>
             </thead>
             <tbody>
                 <?php foreach ($settings as $setting): ?>
                 <tr>
-                    <td><?= $this->Number->format($setting->id) ?></td>
                     <td><?= h($setting->site_name) ?></td>
                     <td><?= h($setting->site_description) ?></td>
-                    <td><?= h($setting->site_logo) ?></td>
-                    <td><?= h($setting->theme_primary_color) ?></td>
-                    <td><?= h($setting->theme_secondary_color) ?></td>
+                    <td><img src="../img/uploads/Settings/<?= $setting->site_logo?>" alt="logo"></td>
                     <td class="actions">
-                        <?= $this->Html->link(__('View'), ['action' => 'view', $setting->id]) ?>
-                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $setting->id]) ?>
-                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $setting->id], ['confirm' => __('Are you sure you want to delete # {0}?', $setting->id)]) ?>
-                    </td>
+                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $setting->id]) ?>                    </td>
                 </tr>
                 <?php endforeach; ?>
             </tbody>
@@ -41,12 +34,12 @@
     </div>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->first('<< ' . __('first')) ?>
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->first('<< ' . __('Første')) ?>
+            <?= $this->Paginator->prev('< ' . __('Forrige')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-            <?= $this->Paginator->last(__('last') . ' >>') ?>
+            <?= $this->Paginator->next(__('Næste') . ' >') ?>
+            <?= $this->Paginator->last(__('Sidste') . ' >>') ?>
         </ul>
-        <p><?= $this->Paginator->counter(__('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')) ?></p>
+        <p><?= $this->Paginator->counter(__('Side {{page}} af {{pages}}, viser {{current}} resultat(er) ud af {{count}}')) ?></p>
     </div>
 </div>
