@@ -26,7 +26,7 @@
                     <td><?= h($user->steam_id) ?></td>
                     <td><?= h($user->name) ?></td>
                     <td><img src="<?= $user->avatar_medium ?>" alt="logo"></td>
-                    <td><?= $user->has('group') ? $this->Html->link($user->group->name, ['controller' => 'Groups', 'action' => 'view', $user->group->id]) : '' ?></td>
+                    <td><?= $user->group->name ?></td>
                     <td class="actions">
                         <?= $this->Html->link(__('View'), ['action' => 'view', $user->id]) ?>
                         <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id], ['confirm' => __('Are you sure you want to delete # {0}?', $user->id)]) ?>

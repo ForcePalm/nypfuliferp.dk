@@ -3,18 +3,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    --featured-img: linear-gradient(120deg,#fff,#1d1d1d);
-    background-image: radial-gradient(50% 50% at top center,rgba(0,0,0,.70),#1d1d1d),var(--featured-img);
-    background-repeat: no-repeat;
 }
-
-
-/*Page wrapper*/
-.container-fluid{
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
 
 /*Header*/
 .main-header{
@@ -25,13 +14,12 @@ body{
 
 .main-header .top-nav-title img{
     width: 45px;
-    border-radius: 100%;
 }
 
 
 /*Main*/
 .main-content{
-    margin-top: 80px;
+    margin-top: 140px;
 }
 
 

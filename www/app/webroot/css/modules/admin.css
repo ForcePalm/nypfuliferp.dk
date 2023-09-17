@@ -80,11 +80,11 @@
 
 /*Admin content*/
 .admin-main .content{
-    background-color: #fff;
+    background-color: #202225;
 }
 
 .admin-main .content h3{
-    color: #1d2327;
+    color: white;
     font-size: 2.6rem;
 }
 
@@ -114,6 +114,7 @@
 .admin-main table td{
     font-size: 1.4rem;
     border-bottom: 1px solid #cecece;
+    color: white;
 }
 
 .admin-main table td img{
@@ -123,6 +124,10 @@
 
 .admin-main table th a{
     color: #F576D9;
+}
+
+.admin-main p {
+    color: white;
 }
 
 .actions{
