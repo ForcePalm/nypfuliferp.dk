@@ -1,6 +1,12 @@
+<?php
+
+use Cake\ORM\TableRegistry;
+
+$users = TableRegistry::getTableLocator()->get('Users')->find()->all();
+?>
 <div class="row">
     <div class="col-xl-3 col-lg-6">
-        <a class="link-widget" data-toggle="modal" data-target="#users">
+        <a class="link-widget" href="<?= $this->Url->build(['plugin' => 'AdminTheme', 'controller'=>'Users', 'action'=>'index']); ?>">
           <div class="card l-bg-blue-dark">
               <div class="card-statistic-3 p-4">
                   <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
@@ -10,7 +16,7 @@
                   <div class="row align-items-center mb-2 d-flex">
                       <div class="col-8 justify-content-left">
                           <h2 class="d-flex align-items-center mb-0">
-                              <?php //echo $profiles->Amount; ?>
+                              <?= count($users) ?>
                           </h2>
                       </div>
                   </div>

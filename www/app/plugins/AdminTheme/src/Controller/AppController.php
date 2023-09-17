@@ -18,6 +18,19 @@ class AppController extends BaseController
          * see https://book.cakephp.org/4/en/controllers/components/form-protection.html
          */
         $this->loadComponent('FormProtection');
+        $this->loadComponent('Authentication.Authentication');
+    }
+
+    public function beforeFilter(\Cake\Event\EventInterface $event)
+    {
+        parent::beforeFilter($event);
+        // for all controllers in our application, make index and view
+        // actions public, skipping the authentication check
+        if($this->request->getAttribute('identity')){
+            if($this->request->getAttribute('identity')->get('group_id') != 2){
+                $this->redirect(['plugin' => null]);
+            }
+        }
     }
 
 }
