@@ -15,6 +15,7 @@
  * 
  */
 
+use App\Controller\AppController;
 use Cake\Core\Configure;
 
 $cakeDescription = 'PfuLifeRP';
@@ -57,9 +58,13 @@ $cakeDescription = 'PfuLifeRP';
 
             <div class="top-nav-links menu-closed">
                 <div>
-                    <ul>
-                        <li><a href="<?= $this->Url->build('/manual') ?>">Manual</a></li>
-                    </ul>
+                    <a href="<?= $this->Url->build('/manual') ?>">Manual</a>
+                    <?php if(!$this->request->getAttribute('identity')){ ?>
+                    <a href="<?= $this->Url->build('/users/login') ?>">log ind</a>
+                    <?php }else{ ?>
+                    <a href="#"><?= $this->request->getAttribute('identity')->get('name')?></a>
+                    <a href="<?= $this->Url->build('/users/logout') ?>">log ud</a>
+                    <?php } ?>
                 </div>
                 
             </div>
