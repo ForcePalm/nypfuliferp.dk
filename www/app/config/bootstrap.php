@@ -225,3 +225,4 @@ TypeFactory::map('time', StringType::class);
 Configure::read('name');
 Configure::read('logo');
 Configure::read('description');
+Configure::write('steamApiKey', '5D5CAEE5D825D22CBEBB7FB693D81B69');
