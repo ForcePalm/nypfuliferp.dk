@@ -29,6 +29,7 @@ use Closure;
 use InvalidArgumentException;
 use IteratorAggregate;
 use RuntimeException;
+use Throwable;
 
 /**
  * This class represents a Relational database SQL Query. A query can be of
@@ -999,6 +1000,19 @@ class Query implements ExpressionInterface, IteratorAggregate
      *
      * If you use string conditions make sure that your values are correctly quoted.
      * The safest thing you can do is to never use string conditions.
+     *
+     * ### Using null-able values
+     *
+     * When using values that can be null you can use the 'IS' keyword to let the ORM generate the correct SQL based on the value's type
+     *
+     * ```
+     * $query->where([
+     *     'posted >=' => new DateTime('3 days ago'),
+     *     'category_id IS' => $category,
+     * ]);
+     * ```
+     *
+     * If $category is `null` - it will actually convert that into `category_id IS NULL` - if it's `4` it will convert it into `category_id = 4`
      *
      * @param \Cake\Database\ExpressionInterface|\Closure|array|string|null $conditions The conditions to filter on.
      * @param array<string, string> $types Associative array of type names used to bind values to query
@@ -2443,7 +2457,7 @@ class Query implements ExpressionInterface, IteratorAggregate
             );
             $sql = $this->sql();
             $params = $this->getValueBinder()->bindings();
-        } catch (RuntimeException $e) {
+        } catch (Throwable $e) {
             $sql = 'SQL could not be generated for this query as it is incomplete.';
             $params = [];
         } finally {

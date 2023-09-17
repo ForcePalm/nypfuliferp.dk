@@ -60,4 +60,9 @@ class AppController extends Controller
         Configure::write('description', $settings->site_description);
 
     }
+
+    public function getCurrentUser()
+    {
+        return $this->request->getAttribute('identity')->getIdentifier();
+    }
 }
