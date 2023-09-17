@@ -1,5 +1,6 @@
 // A $( document ).ready() block.
 $( document ).ready(function() {
+    $('.dropdown-toggle').dropdown();
     $(".mobile-menu span").click(function() {
         $(".share-popup").hide();
         $(".top-nav-links").show();

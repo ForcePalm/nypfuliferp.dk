@@ -35,8 +35,8 @@ $cakeDescription = 'PfuLifeRP';
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="preload" as="font">
 
-    <?= $this->Html->css(['reset', 'vendor/normalize.min', 'vendor/bootstrap/bootstrap.min', 'styles.min', 'vendor/toastr/toastr.min'], ['media' => 'screen']) ?>
-    <?= $this->Html->script(['vendor/jquery/jquery-3.6.4.min','vendor/bootstrap/bootstrap.bundle.min', 'vendor/toastr/toastr.min']) ?>
+    <?= $this->Html->css(['reset', 'vendor/normalize.min', 'vendor/bootstrap/bootstrap.min', 'vendor/bootstrap4-toggle.min', 'styles.min', 'vendor/toastr/toastr.min'], ['media' => 'screen']) ?>
+    <?= $this->Html->script(['vendor/jquery/jquery-3.6.4.min', 'vendor/popper.min', 'vendor/bootstrap/bootstrap.bundle.min', 'vendor/bootstrap4-toggle.min', 'vendor/toastr/toastr.min']) ?>
 
     <script src="https://kit.fontawesome.com/7a26c8da44.js" crossorigin="anonymous"></script>
 
@@ -60,10 +60,16 @@ $cakeDescription = 'PfuLifeRP';
                 <div>
                     <a href="<?= $this->Url->build('/manual') ?>">Manual</a>
                     <?php if(!$this->request->getAttribute('identity')){ ?>
-                    <a href="<?= $this->Url->build('/users/login') ?>">log ind</a>
+                    <a href="<?= $this->Url->build('/users/login') ?>"><img src='<?= $this->Url->image('sits_01.webp') ?>'></a>
                     <?php }else{ ?>
-                    <a href="#"><?= $this->request->getAttribute('identity')->get('name')?></a>
-                    <a href="<?= $this->Url->build('/users/logout') ?>">log ud</a>
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><?=$this->request->getAttribute('identity')->get('name')?> <img class="nav-avatar" src='<?=$this->request->getAttribute('identity')->get('avatar_medium')?>' alt="Avatar" ></a>
+
+                    <div class="dropdown">
+                        <div class="dropdown-menu dropdown-menu-end default-background" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item drop-txt" href="Profile"><i class="fas fa-user"></i> Profile</a>
+                        <a class="dropdown-item drop-txt" href="<?= $this->Url->build('/users/logout') ?>">Log ud</a>
+                        </div>
+                    </div>
                     <?php } ?>
                 </div>
                 
