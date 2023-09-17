@@ -3,20 +3,14 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    --featured-img: linear-gradient(120deg,#fff,#1d1d1d);
-    background-image: radial-gradient(50% 50% at top center,rgba(0,0,0,.70),#1d1d1d),var(--featured-img);
-    background-repeat: no-repeat;
 }
-
-
-
-
 
 /*Header*/
 .main-header{
     border-bottom: 2px solid #F576D9;
     position: fixed;
     min-width: 100%;
+    z-index: 1000%;
 }
 
 .main-header .top-nav-title img{

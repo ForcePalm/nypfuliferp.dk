@@ -17,7 +17,7 @@
 
 use Cake\Core\Configure;
 
-$cakeDescription = 'Ønskeportalen: Din online ønskeliste';
+$cakeDescription = 'PfuLifeRP';
 
 ?>
 <!DOCTYPE html>
@@ -44,7 +44,7 @@ $cakeDescription = 'Ønskeportalen: Din online ønskeliste';
     <?= $this->fetch('script') ?>
     <?= $this->fetch('vendor') ?>
 </head>
-<body>
+<body class="bg-dark">
     <header class="main-header default-background">
         <nav class="top-nav">
             <div class="top-nav-title">
@@ -57,7 +57,9 @@ $cakeDescription = 'Ønskeportalen: Din online ønskeliste';
 
             <div class="top-nav-links menu-closed">
                 <div>
-        
+                    <ul>
+                        <li><a href="<?= $this->Url->build('/manual') ?>">Manual</a></li>
+                    </ul>
                 </div>
                 
             </div>

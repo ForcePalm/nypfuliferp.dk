@@ -51,6 +51,7 @@ return static function (RouteBuilder $routes) {
          * to use (in this case, templates/Pages/home.php)...
          */
         $builder->connect('/', ['plugin' => 'PfuTheme', 'controller' => 'Pages', 'action' => 'display', 'home']);
+        $builder->connect('/manual', ['plugin' => 'PfuTheme', 'controller' => 'Pages', 'action' => 'display', 'manual']);
 
         $builder->connect('/users/login', ['controller' => 'Users', 'action' => 'login']);
         $builder->connect('/users/logout', ['controller' => 'Users', 'action' => 'logout']);
