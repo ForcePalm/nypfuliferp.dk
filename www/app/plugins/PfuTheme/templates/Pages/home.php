@@ -4,6 +4,9 @@
     </div>
     <div class="col-sm-3">
         <div class="col-sm-12">
+            <iframe src="https://discord.com/widget?id=903541251406716928&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+        <div class="col-sm-12">
             <div class="sidebar-div rounded">
         <?php
             $serverIP = '144.91.122.78';
