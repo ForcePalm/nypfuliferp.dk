@@ -54,6 +54,9 @@ $cakeDescription = 'PFULifeRP Admin - ';
             <nav class="admin-nav">
                 <ul>
                     <li><a class="<?= $c_name == 'Pages'?'admin-active': '' ?>" href="/admin"><span class="fa-solid fa-gauge"></span> Oversigt</a></li>
+                    <?php foreach ($menuItems as $menuItem): ?>
+                    <li><?= $this->Html->link($menuItem['label'], $menuItem['url']) ?></li>
+                    <?php endforeach; ?>
                     <li><a class="<?= $c_name == 'Users'?'admin-active': '' ?>" href="<?= $this->Url->build(['controller' => 'Users', 'action' => 'index']) ?>"><span class="fa-solid fa-user"></span> Brugere</a></li>
                     <li><a class="<?= $c_name == 'Settings'?'admin-active': '' ?>" href="<?= $this->Url->build(['controller' => 'Settings', 'action' => 'index']) ?>"><span class="fa-solid fa-gear"></span> Indstillinger</a></li>
                 </ul>
